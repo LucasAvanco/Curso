@@ -4,3 +4,14 @@
 abra o terminal
 git init
 com esse comando ele vai criar um diretório oculto .Git para até gravar as informações antes de você dar até mesmo o commit
+
+#depois tem que adicionar todos os arquivos do nosso diretório
+git add .          ou (all)
+
+#depois é só comitar
+git commit -m "primeiro commit"
+
+#caso precise se identificar usa
+git config --global user.email "email_pessoal"
+git config --global user.name "nome_pessoal"
+
