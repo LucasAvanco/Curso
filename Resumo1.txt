@@ -1,0 +1,6 @@
+#criar repositório no GitHub
+
+#num repositório que você deseja mandar para internet 
+abra o terminal
+git init
+com esse comando ele vai criar um diretório oculto .Git para até gravar as informações antes de você dar até mesmo o commit
