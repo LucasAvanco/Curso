@@ -15,3 +15,8 @@ git commit -m "primeiro commit"
 git config --global user.email "email_pessoal"
 git config --global user.name "nome_pessoal"
 
+git remote add origin url
+comando de vinculação do repositório nosso para o repositório do GitHub
+
+# Depois enviar esses arquivos para o GitHub
+git push -u origin main
