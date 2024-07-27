@@ -5,11 +5,12 @@ abra o terminal
 git init
 com esse comando ele vai criar um diretório oculto .Git para até gravar as informações antes de você dar até mesmo o commit
 
-#depois tem que adicionar todos os arquivos do nosso diretório
-git add .          ou (all)
+#depois tem que adicionar todos os arquivos do nosso diretório lembrando que só é somente para adicinar os arquivos
+git add .          ou (--all)
 
 #depois é só comitar
 git commit -m "primeiro commit"
+git commit -a -m
 
 #caso precise se identificar usa
 git config --global user.email "email_pessoal"
@@ -17,6 +18,15 @@ git config --global user.name "nome_pessoal"
 
 git remote add origin url
 comando de vinculação do repositório nosso para o repositório do GitHub
+quando vinculamos nosso repositório local com o github ser for https é bem possível que ele vai fazer o reconhecimento via web e caso seja modelo ssh ele vai gerar uma chave caso tenha dúvida na alura na parte 1 aula 11 e 12 do curso de git vai estar la
 
 # Depois enviar esses arquivos para o GitHub
 git push -u origin main
+
+
+git log
+mostra todo o históricos de commit que deram ao longo do arquivo
+
+
+git pull origin main
+
