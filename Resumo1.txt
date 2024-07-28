@@ -1,3 +1,62 @@
+O que é branch?
+é um tipo de ramificação que vou fazer no projeto a partir disso em consideração ao main     (7:11)
+Lembrando que tem que fazer o git branch -M main para indicar a linha do tempo principal para poder fazer alterações
+
+O que é Commit?
+Postar as alterações no projeto tanto no main como no branch
+
+O que é Merge?
+quando duas pessoas estão trabalhando no mesmo código e estão fazendo alterações ou adições em linhas de códigos diferentes acontece esse merge da última pessoa 
+obs: quando se trabalha em equipe é sempre bom fazer um branch para si próprio
+
+O que é Remote?
+referência o repositório local com o repositório do github
+exemplo: git remote add origin "link"
+
+O que é Push?
+depois do commit você dar o push do seu repositório local para o repositório do github
+exemplo: depois de ter feito o remote dá um git push -u origin main               main pode ser a master
+
+O que é Pull?
+é puxar o repositório do GitHub para sua máquina obs: você usa quando se trabalha em equipe
+
+o que git init?
+criou um repositório oculto .git e criado a Branch main
+
+E para fazer alterações no projeto?
+git add --all
+git commit -m "nome"
+git push origin main   não precisa usar o -u
+
+
+E para criar uma ramificação "Branch"?
+primeiro cria a branch depois começa a trabalhar 
+git checkout -b "novo-botao" (exemplo)
+
+e depois do commit
+git push origin novo-botao
+
+depois se tem que voltar para main
+git checkout main
+
+E como faz para o Merge ?
+entrando ou estando como main
+git merge novo-botao
+ele vai mergir os dois na main
+e depois git push origin main
+
+
+Como eu puxo diretórios de projetos das pessoas do github para minha máquina ?
+faça um diretório na sua máquina entra no bash git caminha até o diretório e depois
+git clone "linkdorepositorionogit"
+
+e se estiver desatualizado 
+git pull
+lembrando que tem que estar no repositorio
+
+
+
+
 #criar repositório no GitHub
 
 #num repositório que você deseja mandar para internet 
@@ -30,3 +89,14 @@ mostra todo o históricos de commit que deram ao longo do arquivo
 
 git pull origin main
 
+
+
+como Reverter um commit ou alteração feita?
+Primeiro git log, lá cada commit vai ter um id gigante feito
+depois pega o commit que não precisava ter feito e modifica usando git revert id
+depois é só dar o git push origin main
+
+Caso eu fiz um commit e ainda não dei push mantendo no meu repositório local como faço para apagar esse commit?
+git log pega o id do commit anterior ou seja se vai pegar a versão que você deseja mecher 
+git reset --hard id
+assim ele apagará o commit e as alterações feitas já que ele vai pegar o commit anterior (que não tem a alteração)
