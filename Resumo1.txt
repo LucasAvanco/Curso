@@ -99,4 +99,6 @@ depois é só dar o git push origin main
 Caso eu fiz um commit e ainda não dei push mantendo no meu repositório local como faço para apagar esse commit?
 git log pega o id do commit anterior ou seja se vai pegar a versão que você deseja mecher 
 git reset --hard id
-assim ele apagará o commit e as alterações feitas já que ele vai pegar o commit anterior (que não tem a alteração)
+
+Caso você modifique seu commit escreveu sua mensagem errada e que seja o último commit do histórico
+git commit --amend -m "corrigindo.."
