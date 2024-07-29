@@ -102,3 +102,20 @@ git reset --hard id
 
 Caso você modifique seu commit escreveu sua mensagem errada e que seja o último commit do histórico
 git commit --amend -m "corrigindo.."
+
+Arquivo README.md
+Aqui você vai explicar o projeto
+E dá Para até usar o html para formatações do Projeto
+
+Caso eu queira que um arquivo ou diretório fica oculto no github só eu possa ver?
+criar um arquivo chamado .gitignore
+dentro dele dá para fazer os comandos dentro
+ignorar diretórios       temp/
+ignorar arquivos         arquivo.txt
+ignorar arquivos css     *.css
+
+Como criar um arquivo contendo todos os logs feitos
+git log > logs.txt
+e depois coloca dentro .gitignore logs.txt
+
+Não esquece de poder estilizar o GitHub com README em liguagem marcdown 
