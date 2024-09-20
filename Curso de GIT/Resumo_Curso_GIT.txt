@@ -33,7 +33,7 @@ E para criar uma ramificação "Branch"?
 primeiro cria a branch depois começa a trabalhar 
 git checkout -b "novo-botao" (exemplo)
 
-e depois do commit
+e depois dou commit
 git push origin novo-botao
 
 depois se tem que voltar para main
