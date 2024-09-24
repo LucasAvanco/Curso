@@ -90,6 +90,7 @@ body{
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--Montserrat);
+    cursor: pointer;
 }
 .apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
@@ -108,7 +109,7 @@ body{
     font-weight: 400;
 }
 
-@media (max-width:1200px) {
+@media (max-width:1250px) {
     .cabecalho{
         padding: 10%;   
     }
@@ -117,6 +118,14 @@ body{
     }
     .apresentacao{
         flex-direction: column-reverse;
+        padding:5%;
     }
+    .apresentacao__conteudo{
+        width:100%;
+    }
+    .apresentacao__imagem{
+        width: 80%;
+    }
+    
 
 }
