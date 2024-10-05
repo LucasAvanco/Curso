@@ -159,6 +159,7 @@ body{
     .container{
         display: block;
         background-image: none;
+        margin-bottom: 6rem;
     }
     .container__imagem{
         width: 50vw;
@@ -175,6 +176,7 @@ body{
     }
     .dispositivos__lista{
         display: block;
+        text-align: center;
     }
     .rodape{
         padding-bottom: 0.5rem;
@@ -185,8 +187,6 @@ body{
     .rodape__texto{
         display: block;
     }
-    .container{
-        margin: 0;
-    }
+
 
 }
