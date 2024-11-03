@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .container{
     display: flex;
@@ -18,4 +19,33 @@
 }
 .container__imagem{
     padding: 1rem;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%; 
+    width: 60vw;
+}
+
+/*se container botao estiver ativo procura uma classe lista-menu e altera é como se fosse uma condicional mesmo */
+.container__botao:checked ~ .lista-menu{
+    display: block;
+}
+
+.lista-menu__titulo, .lista_menu__item{
+    padding: 1rem;
+    background-color: var(--branco);
+}
+.lista-menu__titulo{
+    color: var(--laranja);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.lista_menu__item{
+    
+}
+.lista_menu__link{
+    text-decoration: none;
+    color: var(--barras-menu);
+    text-transform: uppercase; /*letras maiuscula*/
 }
