@@ -48,4 +48,8 @@
     text-decoration: none;
     color: var(--barras-menu);
     text-transform: uppercase; /*letras maiuscula*/
+
+}
+.container__botao{
+    display: none;
 }
