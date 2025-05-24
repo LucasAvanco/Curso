@@ -119,3 +119,5 @@ git log > logs.txt
 e depois coloca dentro .gitignore logs.txt
 
 Não esquece de poder estilizar o GitHub com README em liguagem marcdown 
+
+Não esquecer do git status sempre para ver como está o desenvolvimento
